@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D176560A2BBC25DB001CFCA9 /* Lord_Of_The_Rings_ConverterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17656092BBC25DB001CFCA9 /* Lord_Of_The_Rings_ConverterApp.swift */; };
+		D176560C2BBC25DB001CFCA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176560B2BBC25DB001CFCA9 /* ContentView.swift */; };
+		D176560E2BBC25DC001CFCA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D176560D2BBC25DC001CFCA9 /* Assets.xcassets */; };
+		D17656112BBC25DC001CFCA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D17656102BBC25DC001CFCA9 /* Preview Assets.xcassets */; };
+		D176561B2BBC25DC001CFCA9 /* Lord_Of_The_Rings_ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176561A2BBC25DC001CFCA9 /* Lord_Of_The_Rings_ConverterTests.swift */; };
+		D17656252BBC25DC001CFCA9 /* Lord_Of_The_Rings_ConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17656242BBC25DC001CFCA9 /* Lord_Of_The_Rings_ConverterUITests.swift */; };
+		D17656272BBC25DC001CFCA9 /* Lord_Of_The_Rings_ConverterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17656262BBC25DC001CFCA9 /* Lord_Of_The_Rings_ConverterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D17656172BBC25DC001CFCA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D17655FE2BBC25DB001CFCA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D17656052BBC25DB001CFCA9;
+			remoteInfo = "Lord Of The Rings Converter";
+		};
+		D17656212BBC25DC001CFCA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D17655FE2BBC25DB001CFCA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D17656052BBC25DB001CFCA9;
+			remoteInfo = "Lord Of The Rings Converter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D17656062BBC25DB001CFCA9 /* Lord Of The Rings Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lord Of The Rings Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D17656092BBC25DB001CFCA9 /* Lord_Of_The_Rings_ConverterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lord_Of_The_Rings_ConverterApp.swift; sourceTree = "<group>"; };
+		D176560B2BBC25DB001CFCA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D176560D2BBC25DC001CFCA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D17656102BBC25DC001CFCA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D17656162BBC25DC001CFCA9 /* Lord Of The Rings ConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lord Of The Rings ConverterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D176561A2BBC25DC001CFCA9 /* Lord_Of_The_Rings_ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lord_Of_The_Rings_ConverterTests.swift; sourceTree = "<group>"; };
+		D17656202BBC25DC001CFCA9 /* Lord Of The Rings ConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lord Of The Rings ConverterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D17656242BBC25DC001CFCA9 /* Lord_Of_The_Rings_ConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lord_Of_The_Rings_ConverterUITests.swift; sourceTree = "<group>"; };
+		D17656262BBC25DC001CFCA9 /* Lord_Of_The_Rings_ConverterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lord_Of_The_Rings_ConverterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D17656032BBC25DB001CFCA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D17656132BBC25DC001CFCA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D176561D2BBC25DC001CFCA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D17655FD2BBC25DB001CFCA9 = {
+			isa = PBXGroup;
+			children = (
+				D17656082BBC25DB001CFCA9 /* Lord Of The Rings Converter */,
+				D17656192BBC25DC001CFCA9 /* Lord Of The Rings ConverterTests */,
+				D17656232BBC25DC001CFCA9 /* Lord Of The Rings ConverterUITests */,
+				D17656072BBC25DB001CFCA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D17656072BBC25DB001CFCA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D17656062BBC25DB001CFCA9 /* Lord Of The Rings Converter.app */,
+				D17656162BBC25DC001CFCA9 /* Lord Of The Rings ConverterTests.xctest */,
+				D17656202BBC25DC001CFCA9 /* Lord Of The Rings ConverterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D17656082BBC25DB001CFCA9 /* Lord Of The Rings Converter */ = {
+			isa = PBXGroup;
+			children = (
+				D17656092BBC25DB001CFCA9 /* Lord_Of_The_Rings_ConverterApp.swift */,
+				D176560B2BBC25DB001CFCA9 /* ContentView.swift */,
+				D176560D2BBC25DC001CFCA9 /* Assets.xcassets */,
+				D176560F2BBC25DC001CFCA9 /* Preview Content */,
+			);
+			path = "Lord Of The Rings Converter";
+			sourceTree = "<group>";
+		};
+		D176560F2BBC25DC001CFCA9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D17656102BBC25DC001CFCA9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D17656192BBC25DC001CFCA9 /* Lord Of The Rings ConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				D176561A2BBC25DC001CFCA9 /* Lord_Of_The_Rings_ConverterTests.swift */,
+			);
+			path = "Lord Of The Rings ConverterTests";
+			sourceTree = "<group>";
+		};
+		D17656232BBC25DC001CFCA9 /* Lord Of The Rings ConverterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D17656242BBC25DC001CFCA9 /* Lord_Of_The_Rings_ConverterUITests.swift */,
+				D17656262BBC25DC001CFCA9 /* Lord_Of_The_Rings_ConverterUITestsLaunchTests.swift */,
+			);
+			path = "Lord Of The Rings ConverterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D17656052BBC25DB001CFCA9 /* Lord Of The Rings Converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D176562A2BBC25DC001CFCA9 /* Build configuration list for PBXNativeTarget "Lord Of The Rings Converter" */;
+			buildPhases = (
+				D17656022BBC25DB001CFCA9 /* Sources */,
+				D17656032BBC25DB001CFCA9 /* Frameworks */,
+				D17656042BBC25DB001CFCA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lord Of The Rings Converter";
+			productName = "Lord Of The Rings Converter";
+			productReference = D17656062BBC25DB001CFCA9 /* Lord Of The Rings Converter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D17656152BBC25DC001CFCA9 /* Lord Of The Rings ConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D176562D2BBC25DC001CFCA9 /* Build configuration list for PBXNativeTarget "Lord Of The Rings ConverterTests" */;
+			buildPhases = (
+				D17656122BBC25DC001CFCA9 /* Sources */,
+				D17656132BBC25DC001CFCA9 /* Frameworks */,
+				D17656142BBC25DC001CFCA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D17656182BBC25DC001CFCA9 /* PBXTargetDependency */,
+			);
+			name = "Lord Of The Rings ConverterTests";
+			productName = "Lord Of The Rings ConverterTests";
+			productReference = D17656162BBC25DC001CFCA9 /* Lord Of The Rings ConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D176561F2BBC25DC001CFCA9 /* Lord Of The Rings ConverterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D17656302BBC25DC001CFCA9 /* Build configuration list for PBXNativeTarget "Lord Of The Rings ConverterUITests" */;
+			buildPhases = (
+				D176561C2BBC25DC001CFCA9 /* Sources */,
+				D176561D2BBC25DC001CFCA9 /* Frameworks */,
+				D176561E2BBC25DC001CFCA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D17656222BBC25DC001CFCA9 /* PBXTargetDependency */,
+			);
+			name = "Lord Of The Rings ConverterUITests";
+			productName = "Lord Of The Rings ConverterUITests";
+			productReference = D17656202BBC25DC001CFCA9 /* Lord Of The Rings ConverterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D17655FE2BBC25DB001CFCA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					D17656052BBC25DB001CFCA9 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					D17656152BBC25DC001CFCA9 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D17656052BBC25DB001CFCA9;
+					};
+					D176561F2BBC25DC001CFCA9 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D17656052BBC25DB001CFCA9;
+					};
+				};
+			};
+			buildConfigurationList = D17656012BBC25DB001CFCA9 /* Build configuration list for PBXProject "Lord Of The Rings Converter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D17655FD2BBC25DB001CFCA9;
+			productRefGroup = D17656072BBC25DB001CFCA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D17656052BBC25DB001CFCA9 /* Lord Of The Rings Converter */,
+				D17656152BBC25DC001CFCA9 /* Lord Of The Rings ConverterTests */,
+				D176561F2BBC25DC001CFCA9 /* Lord Of The Rings ConverterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D17656042BBC25DB001CFCA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D17656112BBC25DC001CFCA9 /* Preview Assets.xcassets in Resources */,
+				D176560E2BBC25DC001CFCA9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D17656142BBC25DC001CFCA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D176561E2BBC25DC001CFCA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D17656022BBC25DB001CFCA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D176560C2BBC25DB001CFCA9 /* ContentView.swift in Sources */,
+				D176560A2BBC25DB001CFCA9 /* Lord_Of_The_Rings_ConverterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D17656122BBC25DC001CFCA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D176561B2BBC25DC001CFCA9 /* Lord_Of_The_Rings_ConverterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D176561C2BBC25DC001CFCA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D17656252BBC25DC001CFCA9 /* Lord_Of_The_Rings_ConverterUITests.swift in Sources */,
+				D17656272BBC25DC001CFCA9 /* Lord_Of_The_Rings_ConverterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D17656182BBC25DC001CFCA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D17656052BBC25DB001CFCA9 /* Lord Of The Rings Converter */;
+			targetProxy = D17656172BBC25DC001CFCA9 /* PBXContainerItemProxy */;
+		};
+		D17656222BBC25DC001CFCA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D17656052BBC25DB001CFCA9 /* Lord Of The Rings Converter */;
+			targetProxy = D17656212BBC25DC001CFCA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D17656282BBC25DC001CFCA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D17656292BBC25DC001CFCA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D176562B2BBC25DC001CFCA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lord Of The Rings Converter/Preview Content\"";
+				DEVELOPMENT_TEAM = K85HY8ZFL7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bogdantudosie.Lord-Of-The-Rings-Converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D176562C2BBC25DC001CFCA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lord Of The Rings Converter/Preview Content\"";
+				DEVELOPMENT_TEAM = K85HY8ZFL7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bogdantudosie.Lord-Of-The-Rings-Converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D176562E2BBC25DC001CFCA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K85HY8ZFL7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bogdantudosie.Lord-Of-The-Rings-ConverterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lord Of The Rings Converter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lord Of The Rings Converter";
+			};
+			name = Debug;
+		};
+		D176562F2BBC25DC001CFCA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K85HY8ZFL7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bogdantudosie.Lord-Of-The-Rings-ConverterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lord Of The Rings Converter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lord Of The Rings Converter";
+			};
+			name = Release;
+		};
+		D17656312BBC25DC001CFCA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K85HY8ZFL7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bogdantudosie.Lord-Of-The-Rings-ConverterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lord Of The Rings Converter";
+			};
+			name = Debug;
+		};
+		D17656322BBC25DC001CFCA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K85HY8ZFL7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bogdantudosie.Lord-Of-The-Rings-ConverterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lord Of The Rings Converter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D17656012BBC25DB001CFCA9 /* Build configuration list for PBXProject "Lord Of The Rings Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D17656282BBC25DC001CFCA9 /* Debug */,
+				D17656292BBC25DC001CFCA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D176562A2BBC25DC001CFCA9 /* Build configuration list for PBXNativeTarget "Lord Of The Rings Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D176562B2BBC25DC001CFCA9 /* Debug */,
+				D176562C2BBC25DC001CFCA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D176562D2BBC25DC001CFCA9 /* Build configuration list for PBXNativeTarget "Lord Of The Rings ConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D176562E2BBC25DC001CFCA9 /* Debug */,
+				D176562F2BBC25DC001CFCA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D17656302BBC25DC001CFCA9 /* Build configuration list for PBXNativeTarget "Lord Of The Rings ConverterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D17656312BBC25DC001CFCA9 /* Debug */,
+				D17656322BBC25DC001CFCA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D17655FE2BBC25DB001CFCA9 /* Project object */;
+}
