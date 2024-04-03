@@ -14,6 +14,12 @@
 		D176561B2BBC25DC001CFCA9 /* Lord_Of_The_Rings_ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176561A2BBC25DC001CFCA9 /* Lord_Of_The_Rings_ConverterTests.swift */; };
 		D17656252BBC25DC001CFCA9 /* Lord_Of_The_Rings_ConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17656242BBC25DC001CFCA9 /* Lord_Of_The_Rings_ConverterUITests.swift */; };
 		D17656272BBC25DC001CFCA9 /* Lord_Of_The_Rings_ConverterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17656262BBC25DC001CFCA9 /* Lord_Of_The_Rings_ConverterUITestsLaunchTests.swift */; };
+		D17656342BBC7CE9001CFCA9 /* ExchangeRateInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17656332BBC7CE9001CFCA9 /* ExchangeRateInfoView.swift */; };
+		D17656362BBC828E001CFCA9 /* ExtractedCurrencyExchangeRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17656352BBC828E001CFCA9 /* ExtractedCurrencyExchangeRateView.swift */; };
+		D181DE362BBD9212000CC131 /* SelectCurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D181DE352BBD9212000CC131 /* SelectCurrencyView.swift */; };
+		D181DE382BBD95A6000CC131 /* CurrencyIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D181DE372BBD95A6000CC131 /* CurrencyIconView.swift */; };
+		D181DE3A2BBD9AA8000CC131 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = D181DE392BBD9AA8000CC131 /* Currency.swift */; };
+		D181DE3C2BBDA843000CC131 /* IconGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D181DE3B2BBDA843000CC131 /* IconGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		D17656202BBC25DC001CFCA9 /* Lord Of The Rings ConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lord Of The Rings ConverterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D17656242BBC25DC001CFCA9 /* Lord_Of_The_Rings_ConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lord_Of_The_Rings_ConverterUITests.swift; sourceTree = "<group>"; };
 		D17656262BBC25DC001CFCA9 /* Lord_Of_The_Rings_ConverterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lord_Of_The_Rings_ConverterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D17656332BBC7CE9001CFCA9 /* ExchangeRateInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateInfoView.swift; sourceTree = "<group>"; };
+		D17656352BBC828E001CFCA9 /* ExtractedCurrencyExchangeRateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedCurrencyExchangeRateView.swift; sourceTree = "<group>"; };
+		D181DE352BBD9212000CC131 /* SelectCurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCurrencyView.swift; sourceTree = "<group>"; };
+		D181DE372BBD95A6000CC131 /* CurrencyIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyIconView.swift; sourceTree = "<group>"; };
+		D181DE392BBD9AA8000CC131 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		D181DE3B2BBDA843000CC131 /* IconGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +108,14 @@
 			children = (
 				D17656092BBC25DB001CFCA9 /* Lord_Of_The_Rings_ConverterApp.swift */,
 				D176560B2BBC25DB001CFCA9 /* ContentView.swift */,
+				D17656332BBC7CE9001CFCA9 /* ExchangeRateInfoView.swift */,
+				D17656352BBC828E001CFCA9 /* ExtractedCurrencyExchangeRateView.swift */,
 				D176560D2BBC25DC001CFCA9 /* Assets.xcassets */,
 				D176560F2BBC25DC001CFCA9 /* Preview Content */,
+				D181DE352BBD9212000CC131 /* SelectCurrencyView.swift */,
+				D181DE372BBD95A6000CC131 /* CurrencyIconView.swift */,
+				D181DE392BBD9AA8000CC131 /* Currency.swift */,
+				D181DE3B2BBDA843000CC131 /* IconGrid.swift */,
 			);
 			path = "Lord Of The Rings Converter";
 			sourceTree = "<group>";
@@ -257,8 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D181DE3C2BBDA843000CC131 /* IconGrid.swift in Sources */,
+				D181DE382BBD95A6000CC131 /* CurrencyIconView.swift in Sources */,
+				D17656342BBC7CE9001CFCA9 /* ExchangeRateInfoView.swift in Sources */,
 				D176560C2BBC25DB001CFCA9 /* ContentView.swift in Sources */,
 				D176560A2BBC25DB001CFCA9 /* Lord_Of_The_Rings_ConverterApp.swift in Sources */,
+				D17656362BBC828E001CFCA9 /* ExtractedCurrencyExchangeRateView.swift in Sources */,
+				D181DE3A2BBD9AA8000CC131 /* Currency.swift in Sources */,
+				D181DE362BBD9212000CC131 /* SelectCurrencyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
